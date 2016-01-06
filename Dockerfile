@@ -11,6 +11,4 @@ EXPOSE 3000
 
 WORKDIR /opt/app
 
-RUN /usr/local/bin/meteor update
-
 ENTRYPOINT ["/usr/local/bin/meteor"]
